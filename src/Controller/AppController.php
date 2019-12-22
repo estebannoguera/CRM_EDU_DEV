@@ -28,6 +28,7 @@ use Cake\Controller\Controller;
  */
 class AppController extends Controller
 {
+
     /**
      * Initialization hook method.
      *
@@ -44,6 +45,7 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
+        
         /*
          * Enable the following component for recommended CakePHP security settings.
          * see https://book.cakephp.org/4/en/controllers/components/security.html
