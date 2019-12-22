@@ -40,7 +40,7 @@ class AppController extends Controller
      */
     public function initialize(): void
     {
-        parent::initialize();
+        parent::initialize();#un comentario
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
